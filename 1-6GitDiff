@@ -1,0 +1,4 @@
+Now that you are tracking the changes on the staging area,
+you can do it using
+					git diff filename
+It lists the changes that have been made since the file has been added.
