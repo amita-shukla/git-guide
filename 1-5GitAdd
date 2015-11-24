@@ -1,0 +1,9 @@
+To put your files you have made changes to the staging area, 
+you need to use the command:
+							git add filename
+otherwise,
+							git add .
+adds all the files in the curent directory to the staging area.
+
+The files added to the staging area are tracked by the git.
+
