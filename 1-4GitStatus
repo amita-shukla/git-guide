@@ -1,0 +1,7 @@
+Check the status of the chnages to the working directory you have made so far.
+The commmand:
+						git status
+						
+output:
+	   the current branch you are in
+	   files in red are untracked files
