@@ -1,0 +1,9 @@
+A git project has three parts:
+
+A Working Directory: where you'll be doing all the work: creating, editing, deleting and organizing files.
+	make changes to files:
+	+ additions
+	- deletions
+	M modifications
+A Staging Area: where you'll list changes you make to the working directory.
+A Repository: where Git permanently stores those changes as different versions of the project.
