@@ -1,0 +1,7 @@
+You can turn any directory on your machine to a repository with the command
+	git init
+after moving to the respective folder (using cd).
+You will observe that a hidden file named ".git" is created.
+
+When you clone a repository from a remote server, then the folder that
+is created on you local machine is already initialized.
