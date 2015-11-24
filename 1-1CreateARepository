@@ -1,0 +1,8 @@
+1. Create an empty repository on github.com
+2. On your machine, move to the folder that contains all your repositories (or create one), suppose "myRepos".
+3. run command
+	git clone https://github.com/username/repositoryname
+4. You will observe that a folder, named as the repository name, is created in myRepos.
+5. Move to this folder. 
+
+Now you can make changes in this folder (your working directory) and can sync it with that hosted on remote server (github here).
