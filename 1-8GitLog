@@ -1,0 +1,7 @@
+Commits can be stored chronologically and can be viewed with
+				git log
+o/p
+	40 character code -SHA that uniquely identifies the commit
+	the commit author
+	date-time of commit
+	commit message
