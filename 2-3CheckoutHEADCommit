@@ -1,0 +1,5 @@
+If you want to revert the changes you have made to your 
+working directory to the last commit, use:
+						git checkout HEAD filename
+will restore the file in your working directory to look exactly as it did when you last made a commit.
+Used for discarding the changes.
