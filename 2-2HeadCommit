@@ -1,0 +1,3 @@
+The most recently made commit is known as the 'HEAD' commit
+						git show HEAD
+Added lines are shown in green and deleted in red.
