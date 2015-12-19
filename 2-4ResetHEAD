@@ -1,0 +1,10 @@
+"Unstage added file"
+The files you've added to the staging area belong in the same commit.
+
+We can unstage that file from the staging area using
+
+						git reset HEAD filename
+
+This command resets the file in the staging area to be the same as the HEAD commit. 
+It does not discard file changes from the working directory, 
+it just removes them from the staging area.
