@@ -1,0 +1,24 @@
+"rewind the project's history"
+
+If you want to revert back to an older commit, use
+					git reset SHA
+This command works by using the first 7 characters of the SHA of a previous commit. 
+
+For example, if the SHA of the previous commit is 
+5d692065cf51a2f50ea8e7b19b5a7ae512f633ba, use:
+
+					git reset 5d69206
+					
+1. print out your Git commit log.
+Note: If your cursor gets stuck in "git log" mode in the terminal, 
+press "q" on your keyboard to escape.
+
+2.Enter the command to reset to a previous commit, 
+using the first 7 characters of one of the past commit SHAs in your Git log.
+
+Next, print the Git commit log again.
+
+Notice anything interesting? 
+The commits that came after the one you reset to are gone. 
+The HEAD commit has been reassigned. 
+YOU JUST CHANGED HISTORY!!!
