@@ -1,0 +1,10 @@
+New Branch is a different version of the Git project. 
+It contains commits from Master but also has commits that Master does not have.
+
+To create a new branch, use:
+
+			git branch new_branch
+			
+Be sure to name your branch something that describes the purpose of the branch. 
+Also, branch names can’t contain whitespaces: 
+new-branch and new_branch are valid branch names, but new branch is not.
