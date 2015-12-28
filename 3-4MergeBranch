@@ -1,0 +1,12 @@
+To include all the changes made to the new branch on the master branch.
+We can easily accomplish this by merging the branch into master with:
+Change to master branch first:
+		
+		git checkout master
+then,
+		git merge branch_name
+		
+If the new branch contained the most recent commit, it is said that the merge is a 
+"fast forward".
+
+
