@@ -1,0 +1,31 @@
+The merge is successful when master has not changed since we made a commit on the new branch. 
+Git then simply updates master with changes on the new branch.
+
+
+But if you made a commit on master before you merged the two branches, or,
+if the commit you made on master altered the same exact text you worked on in the new branch,
+when you switch back to master and ask Git to merge the two branches, 
+Git doesn't know which changes you want to keep. 
+This is called a 
+			"merge conflict"
+			
+In the output, the following error is displayed:
+			CONFLICT (content): Merge conflict in <file_name>
+			Automatic merge failed; fix conflicts and then commit the result.
+
+If you open the file with the conflict, you observe that it has been edited as:
+
+			<<<<<<< HEAD
+			master version of line
+			=======
+			new branch version of line
+			>>>>>>> branch name
+
+You need to edit this sile again to rkeep only one of the versions:
+
+Delete all of Git's special markings including the word HEAD and branch name. 
+If any of Git's markings remain, for example, >>>>>>> and =======, the conflict remains.
+
+Again add the file to the staging area.
+And commit (with the message "Resolve merge conflict")
+
