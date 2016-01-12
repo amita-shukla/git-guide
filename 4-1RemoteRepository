@@ -1,0 +1,20 @@
+Git offers a variety of collaboration tools, that make it easy for us to collaborate among team members
+working under a project.
+
+For two people sitting apart to collaborate on a project, we need:
+1. A complete replica of the project on our local computers.
+2. A way to keep track and review each other's work.
+3. Access to a definitive project version.
+
+For all the above, we use 'remotes'.
+
+What is a remote?
+
+A remote is a shared git repository that allows multiple collaborators to work on the same git project
+sitting at different locations.
+Collaborators work on the project independently, and merge changes together when they are ready to do so.
+
+
+A remote is a Git repository that lives outside your Git project folder. 
+Remotes can live on the web, on a shared network or even in a separate folder on your local computer.
+
