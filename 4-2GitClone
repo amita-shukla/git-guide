@@ -1,0 +1,13 @@
+To get your own replica of the project on your local machine,
+we use the command
+				git clone remote-location clone_name
+				
+here 'remote-location' is the path to the remote repo.
+It can be a web address or any path in the computer.
+
+'clone_name' this is the name of the directory in which the remote repo is cloned.
+
+If you just write the command
+			git clone remote-location
+
+you get a folder named as the name of the remote repo.
