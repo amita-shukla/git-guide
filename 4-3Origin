@@ -1,0 +1,12 @@
+When we clone a repository, the git gives the remote address the name 'origin'. 
+this name is given for easier reference.
+
+To list the remotes of a git repository, use the command:
+				git remote -v
+
+The output:
+origin	https://github.com/amita-shukla/git-guide (fetch)
+origin	https://github.com/amita-shukla/git-guide (push)
+
+
+
