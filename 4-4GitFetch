@@ -1,0 +1,28 @@
+You local clone may not remain up to date as multiple collaborators contribute to the project.
+An easy way to see if changes have been made to the remote and bring the changes down to your
+local copy is with the following command:
+					git fetch
+
+This command will not merge changes from the remote into your local repository. 
+It brings those changes onto what's called a remote branch. 
+
+Make a note of the output of the command
+					git show HEAD
+
+After running this command, though changes have been fetched to the local copy of the git project,
+Your local master branch does NOT get updated with these changes. The commits have actually been fetched
+to origin/master branch. Your local branch has not been updated.
+
+So we cannot view or make changes to any of the work that has been added to the remote repo.
+
+We use the command:
+					git merge origin/master
+			
+This uses the 'git merge' command to integrate origin/master branch to local master branch.
+
+Run 
+					git show HEAD
+again. If there have been changes in the remote, we can observe these changes now after merging.
+The HEAD commit is changed to the latest one done by some other collaborators.			
+
+ 
